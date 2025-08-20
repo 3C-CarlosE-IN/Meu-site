@@ -1,4 +1,4 @@
-/*Carlos Eduardo Santana Castro 3°C*/
+/*Carlos Eduardo Santana Castro 3°C 20.08.25*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
@@ -6,7 +6,7 @@
     --azul: #3f10d6;
     background-image: url(img/beatles\ banda.jpg);
     background-image: url(img/fundo\ acessibilidade.jpg);
-    --alto-contraste-texto: #2a0cec;
+    --alto-contraste-texto: #efedf6;
     --alto-contraste-link: #e5ca1d;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #0a27df;
+    background-color: #0a26dfde;
     background-image: url(img/outroro.jpeg);
 }
 
@@ -28,7 +28,7 @@ section {
 
 
 .nav-link {
-    color: #1e06f0;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -61,7 +61,6 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -93,6 +92,10 @@ section {
     z-index: 1;
 }
 
+.text-white {
+    text-shadow: 4px 4px 8px var(--azul);
+}
+
 
 h2 {
     font-family: 'Lemon', serif;
@@ -102,7 +105,7 @@ h2 {
 }
 
 #instrumentos {
-    background-color: #505555;
+    background-color: #3b28a3;
 
 }
 
@@ -112,10 +115,9 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/bateria\ pequena.jpeg');
+    background-image: url(img/beatles\ banda.jpg);
     background-size: cover;
     padding: 4rem 0;
-
 }
 
 .formulario {
@@ -127,13 +129,13 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #000000;
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #67657e;
+    background-color: #737373;
 }
 .menu-acessibilidade{
     position: fixed;
