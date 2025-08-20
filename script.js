@@ -1,4 +1,4 @@
-/*Carlos Eduardo Santana Castro 3°C*/
+/*Carlos Eduardo Santana Castro 3°C 20.08.25*/
 document.addEventListener('DOMContentLoaded', function(){
     const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
     const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
